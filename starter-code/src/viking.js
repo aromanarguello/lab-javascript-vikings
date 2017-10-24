@@ -55,6 +55,11 @@ Saxon.prototype.receiveDamage = function(damage) {
 
 
 // War
-function War () {}
+function War () {
+  this.vikingArmy = [];
+  this.saxonArmy = [];
+}
 
-var fighter = new Soldier(300, 50);
+War.prototype.addViking = function (axe) {
+
+};
